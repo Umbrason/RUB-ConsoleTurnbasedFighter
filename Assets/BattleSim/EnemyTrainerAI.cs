@@ -50,7 +50,7 @@ public class EnemyTrainerAI : MonoBehaviour
     private int BestSwitch(Pokemon enemy, Pokemon[] selfBench)
     {
         if (selfBench.Length == 0) return -1;
-        var switchChoices = selfBench.Skip(1).Select(candidate => new SwitchChoice(candidate, enemy)).OrderBy(sc => sc.score).ToList();
+        var switchChoices = selfBench.Skip(1).Where(pkmn => pkmn.HealthPercent > 0).Select(candidate => new SwitchChoice(candidate, enemy)).OrderBy(sc => sc.score).ToList();
         return selfBench.ToList().IndexOf(switchChoices[0].candidate) + 1;
     }
 
