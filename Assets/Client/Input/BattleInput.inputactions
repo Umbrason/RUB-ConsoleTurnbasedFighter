@@ -1,0 +1,214 @@
+{
+    "name": "BattleInput",
+    "maps": [
+        {
+            "name": "BattleCommands",
+            "id": "d4de80e3-8b1a-4319-89a6-3e267139ae86",
+            "actions": [
+                {
+                    "name": "Move 1",
+                    "type": "Button",
+                    "id": "5eea8914-ae2a-4c33-97c4-70c39eafb1f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move 2",
+                    "type": "Button",
+                    "id": "6f7394eb-1951-4ea9-971f-01cc061968c4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move 3",
+                    "type": "Button",
+                    "id": "d56b9372-fb32-407e-882b-5f992263513b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move 4",
+                    "type": "Button",
+                    "id": "78fb0e8c-7a81-47e0-b627-14db32821904",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 1",
+                    "type": "Button",
+                    "id": "482a21b7-ea0b-43bf-b558-a04fe1c83ed6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 2",
+                    "type": "Button",
+                    "id": "0c9e1f39-2ed6-4205-9059-0e375ccb9b2e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 3",
+                    "type": "Button",
+                    "id": "73e30338-60bc-46f7-8ad9-7b155ffb3846",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 4",
+                    "type": "Button",
+                    "id": "5ae0c7cb-1d18-412f-885f-9ab6f7a2f697",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 5",
+                    "type": "Button",
+                    "id": "0457713b-b9bd-422c-ac53-b9259d59c66a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch 6",
+                    "type": "Button",
+                    "id": "9f7c7002-e4c6-4f02-8953-62a628ecb715",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "397c00a7-52dc-45ff-a375-a6bfcac3408b",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ed70ef3-f068-4783-8fd7-d3cb440ccb2a",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "904f237a-f155-4162-9dd7-599ff14d8c4a",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6b733a2-69c1-4a64-9f98-cd53cdc50856",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fab0c2e-0015-4c2e-86b7-af4e8fac3e5e",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e7d0c14-f86e-42f1-b0c8-7993c8113578",
+                    "path": "<Keyboard>/f2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2526acc8-c7d5-4b0b-8f1f-caaf880cacaf",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be9617e1-d7ef-4e99-bc06-79cf02a5ebbd",
+                    "path": "<Keyboard>/f4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d50296f-86e0-41ff-862f-0b77896e80d2",
+                    "path": "<Keyboard>/f5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8acb16f-8b31-4cc0-8473-bc1d2110deb2",
+                    "path": "<Keyboard>/f6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch 6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
