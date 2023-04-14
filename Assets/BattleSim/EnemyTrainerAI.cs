@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -58,9 +59,14 @@ public class EnemyTrainerAI : MonoBehaviour
     {
         var selfPokemonInfo = PokeDex.Pokemon[enemy.Species.ToLower()];
         var enemyPokemonInfo = PokeDex.Pokemon[enemy.Species.ToLower()];
-        var MoveChoices = self.moves
-                          .Select(m => new MoveChoice(m, self, enemy))
-                          .OrderByDescending(mc => mc.OffensiveScore);
+
+        var MoveChoices = new List<MoveChoice>();
+        for (int i = 0; i < 4; i++)
+        {
+            if (moves[i].disabled) continue;
+            MoveChoices.Add(new MoveChoice(self.moves[i], self, enemy));
+        }
+        MoveChoices = MoveChoices.OrderByDescending(mc => mc.OffensiveScore).ToList();
 
         var statusMoves = MoveChoices.Where(mc => mc.moveInfo.moveCategory == MoveDex.MoveInfo.MoveCategory.Status).ToList();
         var attackingMoves = MoveChoices.Where(mc => mc.moveInfo.moveCategory != MoveDex.MoveInfo.MoveCategory.Status).ToList();
